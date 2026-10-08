@@ -51,11 +51,5 @@ class Restaurante {
   }
 }
 
-const wok = new Restaurante("Wok Express", "Comida china", 4.2);
-console.log(wok.describir());
-console.log("Está bien calificado", wok.estaBienCalificado());
-
-
-
 // No borres esta línea: es la puerta por donde el test usa tu clase
 module.exports = { Restaurante };
